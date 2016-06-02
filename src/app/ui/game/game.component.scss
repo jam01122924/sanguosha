@@ -1,0 +1,31 @@
+@import '../../color';
+
+.game-component {
+	text-align: center;
+	width: 100vh;
+	height: 100vh;
+	.game-mode-selection-container {
+		text-align: center;
+		width: 50vh;
+		height: 50vh;
+	}
+	.in-game-field-container {
+		width: 100vh;
+		height: 100vh;
+		text-align: center;
+		.in-game-field {
+			position: relative;
+			top: 0;
+		}
+		.character-selection-field {
+			position: relative;
+			text-align: center;
+			top: 25%;
+			width:auto;
+			background-color: $primary-background;
+			color: $primary-color;
+			border-radius: 8px;
+			border: 1px solid $primary-color;
+		}
+	}
+}

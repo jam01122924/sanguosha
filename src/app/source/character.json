@@ -1,0 +1,73 @@
+{
+	"name": "deck",
+	"data": [
+		{
+			"package": "基本",
+			"characters": [
+				{
+					"id": "0001",
+					"name": "刘备",
+					"nation": "蜀",
+					"skills": ["仁德"],
+					"lordSkills": ["激将"],
+					"hp": 4,
+					"lord": true
+				},
+				{
+					"id": "1002",
+					"name": "关羽",
+					"nation": "蜀",
+					"skills": ["武圣"],
+					"lordSkills": [],
+					"hp": 4,
+					"lord": false
+				},
+				{
+					"id": "1003",
+					"name": "张飞",
+					"nation": "蜀",
+					"skills": ["咆哮"],
+					"lordSkills": [],
+					"hp": 4,
+					"lord": false
+				},
+				{
+					"id": "1004",
+					"name": "黄忠",
+					"nation": "蜀",
+					"skills": ["烈弓"],
+					"lordSkills": [],
+					"hp": 4,
+					"lord": false
+				},
+				{
+					"id": "1005",
+					"name": "魏延",
+					"nation": "蜀",
+					"skills": ["狂骨"],
+					"lordSkills": [],
+					"hp": 4,
+					"lord": false
+				},
+				{
+					"id": "1006",
+					"name": "庞统",
+					"nation": "蜀",
+					"skills": ["连环", "涅槃"],
+					"lordSkills": [],
+					"hp": 3,
+					"lord": false
+				},
+				{
+					"id": "1007",
+					"name": "孟获",
+					"nation": "蜀",
+					"skills": ["祸首", "再起"],
+					"lordSkills": [],
+					"hp": 3,
+					"lord": false
+				}
+			]
+		}
+	]
+}

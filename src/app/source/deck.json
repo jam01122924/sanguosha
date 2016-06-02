@@ -1,0 +1,695 @@
+{
+	"name": "deck",
+	"data": [
+		{
+			"content": 1,
+			"text": "杀",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [6,7,8,9,13]
+				},
+				{ 
+					"suit":"S",
+					"nums": [7,8,8,9,9,10,10]
+				},
+				{ 
+					"suit":"H",
+					"nums": [10,10,11]
+				},
+				{ 
+					"suit":"C",
+					"nums": [2,3,4,5,6,7,8,8,9,9,10,10,11,11]
+				}
+			]
+		},
+		{
+			"content": 2,
+			"text": "闪",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [2,2,3,4,5,6,7,8,9,10,11,11]
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": [2,2,13]
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 2,
+			"text": "闪",
+			"package": "ex",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [6,7,8,10,11]
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": [8,9,11,12]
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 3,
+			"text": "桃",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [12]
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": [3,4,6,7,8,9,12]
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 3,
+			"text": "桃",
+			"package": "ex",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [2,3]
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": [5,6]
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 4,
+			"text": "雷杀",
+			"package": "ex",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [4,5,6,7,8]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": [5,6,7,8]
+				}
+			]
+		},
+		{
+			"content": 5,
+			"text": "火杀",
+			"package": "ex",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [4,5]
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": [4,7,10]
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 6,
+			"text": "酒",
+			"package": "ex",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [9]
+				},
+				{ 
+					"suit":"S",
+					"nums": [3,9]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": [3,9]
+				}
+			]
+		},
+		{
+			"content": 11,
+			"text": "雌雄双股剑",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [2]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 12,
+			"text": "青釭剑",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [6]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 13,
+			"text": "贯石斧",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [5]
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 14,
+			"text": "青龙偃月刀",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [5]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 15,
+			"text": "丈八蛇矛",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [12]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 16,
+			"text": "麒麟弓",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": [5]
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 17,
+			"text": "寒冰剑",
+			"package": "ex",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [2]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 18,
+			"text": "古锭刀",
+			"package": "ex",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [1]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 19,
+			"text": "朱雀羽扇",
+			"package": "ex",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [1]
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 20,
+			"text": "诸葛连弩",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [1]
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": [1]
+				}
+			]
+		},
+		{
+			"content": 51,
+			"text": "白银狮子",
+			"package": "ex",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": [1]
+				}
+			]
+		},
+		{
+			"content": 52,
+			"text": "藤甲",
+			"package": "ex",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [2]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": [2]
+				}
+			]
+		},
+		{
+			"content": 53,
+			"text": "仁王盾",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": [2]
+				}
+			]
+		},
+		{
+			"content": 54,
+			"text": "八卦阵",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [2]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": [2]
+				}
+			]
+		},
+		{
+			"content": 81,
+			"text": "骅骝",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [13]
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 82,
+			"text": "绝影",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [5]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 83,
+			"text": "爪黄飞电",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": [13]
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 84,
+			"text": "的卢",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": [5]
+				}
+			]
+		},
+		{
+			"content": 91,
+			"text": "大宛",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": [13]
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 92,
+			"text": "紫骍",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": [13]
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 93,
+			"text": "赤兔",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": [5]
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		},
+		{
+			"content": 111,
+			"text": "决斗",
+			"package": "std",
+			"cards": [
+				{ 
+					"suit":"D",
+					"nums": []
+				},
+				{ 
+					"suit":"S",
+					"nums": []
+				},
+				{ 
+					"suit":"H",
+					"nums": []
+				},
+				{ 
+					"suit":"C",
+					"nums": []
+				}
+			]
+		}
+	]
+}

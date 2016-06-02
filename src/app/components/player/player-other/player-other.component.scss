@@ -1,0 +1,96 @@
+@import '../../../color';
+
+.player-other-main {
+	position: relative;
+	width: 100px;
+	height: 130px;
+	text-align: left;
+	background-color: #155209;
+	border-radius: 4px;
+	border: 1px solid black;
+	overflow: hidden;
+	.player-other-main-content{
+	}
+	.other-player-equipment {
+		position: relative;
+		top: 15px;
+		width: 100%;
+		z-index: 2;
+		padding: 0;
+		margin: 0;
+		opacity: 0.6;
+		.other-player-equipment-container {
+			height: 16px;
+			max-height: 16px;
+			width: 100%;
+			.other-player-equipment-panel {
+				font-size: 12px;
+				background-color: $gray10;
+				color: $gray95;
+				margin: 1px;
+				padding-left: 4px;
+				border: 1px solid $gray45;
+			}
+		}
+	}
+	.player-character-single-img-container {
+		width: 100px;
+		height: 130px;
+		position: absolute;
+		top:0;
+		left:0;
+		.single-char {
+			z-index: 1;
+			width: 100px;
+			height: 130px;
+		}
+	}
+	.player-character-double-img-container {
+		width: 100px;
+		height: 130px;
+		position: absolute;
+		top:0;
+		left:0;
+		.single-char {
+			width: 100px;
+			height: 130px;
+		}
+	}
+	.player-character-dark-cover{
+		width: 100px;
+		height: 130px;
+		position: absolute;
+		top:0;
+		left:0;
+		z-index:3;
+		background-color: $gray5;
+		opacity: 0.5;
+	}
+}
+
+.identity {
+	z-index: 2;
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+.lord-identity {
+	color: #F0D510;
+}
+.loyal-identity {
+	color: $lord-color;
+}
+.traitor-identity {
+	color: $traitor-color;
+}
+.rebel-identity {
+	color: $rebel-color;
+}
+.player-character-name {
+	color: $gray95;
+	background-color: $gray10;
+	opacity: 0.7;
+	z-index: 2;
+	position: relative;
+	padding-left: 4px;
+}

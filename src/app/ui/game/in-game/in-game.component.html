@@ -1,0 +1,16 @@
+<div class="gameContainer">
+	<div class="battleField">
+		<app-battle-field></app-battle-field>
+	</div>
+	<div class="playerField">
+		<div class="playerEquipment">
+			<app-player-equipment [weapon]="player.weapon" [armor]="player.armor" [horsePlus]="player.horsePlus" [horseMinus]="player.horseMinus"></app-player-equipment>
+		</div>
+		<div class="playerCards">
+			<app-player-cards [cards]="player.cards"></app-player-cards>
+		</div>
+		<div class="playerCharacter">
+			<app-player-character [player]="player"></app-player-character>
+		</div>
+	</div>
+</div>

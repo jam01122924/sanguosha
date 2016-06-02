@@ -1,0 +1,15 @@
+<div class="game-mode-selection">
+	<div class="game-mode-btn-container">
+		<button (click)="selectedMode=1">普通5人</button>
+		<button (click)="selectedMode=2">普通8人</button>
+		<button (click)="selectedMode=3">军争5人</button>
+		<button (click)="selectedMode=4">军争8人</button>
+		<button (click)="selectedMode=5">1v1</button>
+		<button (click)="selectedMode=6">3v3</button>
+		<button (click)="selectedMode=7">国战</button>
+	</div><br />
+</div>
+<div class="game-mode-show">
+	{{gm[selectedMode]}}
+</div><br />
+<button (click)="confirm()">Confirm</button>

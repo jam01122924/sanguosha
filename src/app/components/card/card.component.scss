@@ -1,0 +1,67 @@
+@import '../../color';
+
+.card-container {
+	width: 90px;
+	height: 130px;
+  background-size: 90px 130px;
+  background-repeat: no-repeat;
+	color: $primary-color;
+	font-size: 16px;
+	display: inline-block;
+	cursor: pointer;
+	cursor: hand;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;  
+
+	.card-outline {
+		margin: 2px;
+		border: 1px solid gray;
+		border-radius: 4px;
+		padding: 4px 0 0 8px;
+		height: 116px;
+		text-align: left;
+		.red-card {
+			color: $card-red;
+		}
+		.card-content {
+			font-size: 1px;
+			position: relative;
+		  top: 50%;
+			height: 120px;
+		  -webkit-transform: translateY(-50%);
+		  -ms-transform: translateY(-50%);
+		  transform: translateY(-50%);
+			font-weight: bolder;
+			padding: 0 10px 0 30px;
+		}
+	}
+}
+.card-container:hover {
+	filter: brightness(50%);
+}
+.card-light-cover {
+	width: 90px;
+	height: 130px;
+	position: absolute;
+	top:0;
+	left:0;
+	background-color: $gray95;
+	opacity: 0;
+}
+.card-light-cover:hover {
+	opacity: 0.2;
+}
+.card-dark-cover {
+	width: 90px;
+	height: 130px;
+	position: absolute;
+	top:0;
+	left:0;
+	background-color: $gray5;
+	opacity: 0.4;
+}
+

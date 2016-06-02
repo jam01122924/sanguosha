@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<header>
+	<nav>
+		<a [routerLink]="['/home']">Home</a>
+		<a [routerLink]="['/game']">Game</a>
+		<a [routerLink]="['/gallery']">Gallery</a>
+	</nav>
+</header>
+<div class="main-container">
+	<router-outlet></router-outlet>
+</div>

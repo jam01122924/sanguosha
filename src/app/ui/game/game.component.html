@@ -1,0 +1,13 @@
+<div class="game-component">
+	<div class="game-mode-selection-container" *ngIf="_gameStatusService.gameState===0">
+		<app-game-mode-selection></app-game-mode-selection>
+	</div>
+	<div class="in-game-field-container" *ngIf="_gameStatusService.gameState!==0">
+		<div class="in-game-field">
+			<app-in-game></app-in-game>
+		</div>
+		<div class="character-selection-field" *ngIf="_gameStatusService.gameState===2">
+			<app-character-selection></app-character-selection>
+		</div>
+	</div>
+</div>

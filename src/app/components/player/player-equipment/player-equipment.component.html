@@ -1,0 +1,22 @@
+<div class="player-equipment">
+	<div class="player-equipment-container">
+		<div class="player-equipment-panel" *ngIf="weapon">
+			{{weapon.textContent}}
+		</div>
+	</div>
+	<div class="player-equipment-container">
+		<div class="player-equipment-panel" *ngIf="armor">
+			{{armor.textContent}}
+		</div>
+	</div>
+	<div class="player-equipment-container">
+		<div class="player-equipment-panel" *ngIf="horsePlus">
+			{{horsePlus.textContent}}
+		</div>
+	</div>
+	<div class="player-equipment-container">
+		<div class="player-equipment-panel" *ngIf="horseMinus">
+			{{horseMinus.textContent}}
+		</div>
+	</div>
+</div>

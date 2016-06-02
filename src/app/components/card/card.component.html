@@ -1,0 +1,19 @@
+<div class="card-container" [ngStyle]="{'background-image': img}" style="background-size: 90px 130px; background-repeat: no-repeat;">
+	<div class="card-outline">
+		<div class="card-num" [ngClass]="{'red-card': isRed}">
+			{{card.numStr}}
+		</div>
+		<div class="card-suit" [ngClass]="{'red-card': isRed}" [ngSwitch]="card.suit">
+			<span *ngSwitchWhen="'S'">&#x2660;</span>
+			<span *ngSwitchWhen="'H'">&#x2665;</span>
+			<span *ngSwitchWhen="'C'">&#x2663;</span>
+			<span *ngSwitchWhen="'D'">&#x2666;</span>
+			<span *ngSwitchDefault>&#x2660;</span>
+		</div>
+<!-- 		<div class="card-content">
+			{{content}}
+		</div> -->
+		<div class="card-light-cover"></div>
+		<div class="card-dark-cover" *ngIf="card.darken"></div>
+	</div>
+</div>

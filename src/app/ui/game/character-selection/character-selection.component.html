@@ -1,0 +1,8 @@
+<div class="character-selection-modal">
+	<div class="character-selection-panel" *ngIf="start">
+		<div *ngFor = "#character of characters; #i = index" class="character-selection-box" (click)="select(character)">
+			<app-hero [character]="character.character" class="character-selection-directive" [ngClass]="{'character-selected-directive': character.isSelected}" ></app-hero>
+		</div>
+		<button (click)="confirmCharacterSelection()">Confirm</button>
+	</div>
+</div>

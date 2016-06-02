@@ -1,0 +1,49 @@
+<div class="player-other-main">
+	<div *ngIf="player" class="player-other-main-content">
+		<div *ngIf="player.identity||player.identity===0">
+			<div class="identity" [ngClass]="{'lord-identity':player.identity===0, 'loyal-identity':player.identity===1, 'traitor-identity':player.identity===2, 'rebel-identity':player.identity===3}">
+	  		{{identityEnum[player.identity]}}
+	  		{{player.position}}
+	  	</div>
+	  </div>
+		<div *ngIf="player.characters&&player.characters.length">
+			<span class="player-character-name" *ngIf="player.characters[0]">
+				{{player.characters[0].name}}
+			</span>	
+			<span class="player-character-name" *ngIf="player.characters.length===2&&player.characters[1]">
+				{{player.characters[1].name}}
+			</span>
+	  </div>
+	  <div class="player-character-single-img-container" *ngIf="player&&player.characters&&player.characters.length">
+	  	<img class="single-char" src="imgs/{{player.characters[0].name}}.jpg">
+	  </div>
+	  <div class="player-character-double-img-container" *ngIf="player&&player.characters&&player.characters.length===2">
+	  </div>
+	  <div class="other-player-equipment">
+			<div class="other-player-equipment-container">
+				<div class="other-player-equipment-panel" *ngIf="player.weapon">
+					{{player.weapon.textContent}}
+				</div>
+			</div>
+			<div class="other-player-equipment-container">
+				<div class="other-player-equipment-panel" *ngIf="player.armor">
+					{{player.armor.textContent}}
+				</div>
+			</div>
+			<div class="other-player-equipment-container">
+				<div class="other-player-equipment-panel" *ngIf="player.horsePlus">
+					+1 {{player.horsePlus.textContent}}
+				</div>
+			</div>
+			<div class="other-player-equipment-container">
+				<div class="other-player-equipment-panel" *ngIf="player.horseMinus">
+					-1 {{player.horseMinus.textContent}}
+				</div>
+			</div>
+		</div>
+
+	  <div class="player-character-dark-cover" *ngIf="false">
+	  </div>
+
+	</div>
+</div>

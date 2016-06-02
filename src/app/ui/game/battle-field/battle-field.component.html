@@ -1,0 +1,48 @@
+<div class="battle-field-container">
+	<div class="battle-field-top">
+		<div class="player-other-container" *ngIf="players[6]">
+			1<app-player-other [player]="players[6]">
+			</app-player-other>
+		</div>
+		<div class="player-other-container" *ngIf="players[5]">
+			2<app-player-other [player]="players[5]">
+			</app-player-other>
+		</div>
+		<div class="player-other-container" *ngIf="players[4]">
+			3<app-player-other [player]="players[4]">
+			</app-player-other>
+		</div>
+		<div class="player-other-container" *ngIf="players[3]">
+			4<app-player-other [player]="players[3]">
+			</app-player-other>
+		</div>
+		<div class="player-other-container" *ngIf="players[2]">
+			5<app-player-other [player]="players[2]">
+			</app-player-other>
+		</div>
+	</div>
+	<div class="battle-field-mid">
+		<div class="left-player">
+			<div class="player-other-container" *ngIf="players[7]">
+				<app-player-other [player]="players[7]">
+				</app-player-other>
+			</div>
+		</div>
+		<div class="mid-battle-field">
+		</div>
+		<div class="right-player">
+			<div class="player-other-container" *ngIf="players[1]">
+				<app-player-other [player]="players[1]">
+				</app-player-other>
+			</div>
+		</div>
+	</div>
+	<div class="battle-field-bot">
+	<button (click)="testPlayers()">Players</button>
+	<button (click)="testEquip()">Equip</button>
+	<button (click)="testEquipBot()">Equip Position1</button>
+	<button (click)="testLoop()">start</button>
+	<button (click)="testLoopStop()">stop</button>
+	
+	</div>
+</div>

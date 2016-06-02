@@ -1,0 +1,41 @@
+@import '../player-other/player-other.component';
+@import '../../../mixin';
+
+.player-character {
+	width: 100%;
+	height: 100%;
+	.player-character-single-img-container {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top:0;
+		left:0;
+		text-align: center;
+		.single-char {
+			@include aspect-ratio(10,13);
+			z-index: 1;
+			height: 100%;
+		}
+	}
+	.player-character-double-img-container {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top:0;
+		left:0;
+		.single-char {
+			height: 100%;
+		}
+	}
+
+	.player-character-skill {
+		z-index: 2;
+		display: inline-block;
+		position: absolute;
+		bottom: 0;
+		.skill {
+			padding: 2px;
+			width: 30%;
+		}
+	}
+}

@@ -29,6 +29,20 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/components/card',
+  'app/ui/gallery',
+  'app/ui/home',
+  'app/components/player',
+  'app/components/player/player-cards',
+  'app/components/player/player-character',
+  'app/ui/game',
+  'app/components/player/player-equipment',
+  'app/ui/game/character-selection',
+  'app/ui/game/in-game',
+  'app/components/player/hero',
+  'app/components/player/player-other',
+  'app/components/battle-field',
+  'app/ui/game/game-mode-selection',
   /** @cli-barrel */
 ];
 

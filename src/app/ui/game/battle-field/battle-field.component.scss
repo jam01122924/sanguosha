@@ -1,0 +1,38 @@
+.battle-field-container {
+	background-color: #ccf2ff;
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid orange;
+	.battle-field-top {
+		padding-top: 20px;
+		width: 100%;
+		height: 30%;
+		text-align: center;
+		border-bottom: 1px solid black;
+	}
+	.battle-field-mid {
+		padding-top: 20px;
+		width: 100%;
+		height: 40%;
+		border-bottom: 1px solid black;
+		.left-player {
+			float: left;
+		}
+		.right-player {
+			float: right;
+		}
+	}
+	.battle-field-bot {
+		padding-top: 20px;
+		width: 100%;
+		height: 6%;
+		border-bottom: 1px solid black;
+	}
+}
+.player-other-container {
+	display: inline-flex;
+	width: 19%;
+	height: 24%;
+	text-align: center;
+	background-color: #463387
+}

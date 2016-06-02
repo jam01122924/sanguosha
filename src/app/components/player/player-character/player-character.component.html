@@ -1,0 +1,31 @@
+<div class="player-character">
+	<div *ngIf="player">
+		<div *ngIf="player.identity||player.identity===0">
+			<div class="identity" [ngClass]="{'lord-identity':player.identity===0, 'loyal-identity':player.identity===1, 'traitor-identity':player.identity===2, 'rebel-identity':player.identity===3}">
+	  		{{identityEnum[player.identity]}}
+	  		{{player.position}}
+	  	</div>
+	  </div>
+		<div *ngIf="player.characters&&player.characters.length">
+			<span class="player-character-name" *ngIf="player.characters[0]">
+				{{player.characters[0].name}}
+			</span>	
+			<span class="player-character-name" *ngIf="player.characters.length===2&&player.characters[1]">
+				{{player.characters[1].name}}
+			</span>
+	  </div>
+	  <div class="player-character-single-img-container" *ngIf="player&&player.characters&&player.characters.length">
+	  	<img class="single-char" src="imgs/{{player.characters[0].name}}.jpg">
+	  </div>
+	  <div class="player-character-double-img-container" *ngIf="player&&player.characters&&player.characters.length===2">
+	  </div>
+	  <div class="player-character-skill">
+	  	<span class="skill" *ngFor = "#skill of player.getSkills();">
+	  		<button (click)="useSkill(skill)">
+	  			{{skill.name}}
+	  		</button>
+	  	</span>
+	  	}
+	  </div>
+	</div>
+</div>

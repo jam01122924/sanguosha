@@ -1,0 +1,12 @@
+.player-cards-container {
+	.card-in-hand {
+		position: absolute;
+		max-width: 90px;
+		-webkit-transition: bottom 0.5s;
+		animation-timing-function: ease-out;
+		bottom: 0;
+	}
+	.card-selected {
+		bottom: 30px;
+	}
+}

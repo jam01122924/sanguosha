@@ -1,0 +1,5 @@
+<div class="player-cards-container" [ngStyle]="{'max-width': (95*(cards.length)) + 'px'}">
+	<span *ngFor = "#card of cards; #i = index" class="card-in-hand" [ngStyle]="{'left': ((90/cards.length)*i)+'%'}" [ngClass]="{'card-selected': card.selected}">	
+			<card [card]="card" (click)="cardClick(card)"></card>
+	</span>	
+</div>

@@ -1,0 +1,28 @@
+.game-mode-selection {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	.game-mode-btn-container {
+		margin-left: 20%;
+		padding: 5%;
+		width: 50%;
+		border: 1px double black;
+		display: block;
+		button {
+			height: 40px;
+			font-size: 16px;
+			display: inline-block;
+			width: 22%;
+			border-radius: 5px;
+			margin: 0.5%;
+		}
+	}
+}
